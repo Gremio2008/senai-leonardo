@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+</script>
+<script>
+    function myfunction(){
+        let input = document.getElementById("myInput").value;
+        let div = document.getElementById("myDiv");
+         
+        const response = fetch("https://jsonplaceholder.typicode.com/todos/" + input)
+        const data = response.then((res) => res.json())
+        div.innerHTML = cep: ${data.cep} <br> title: ${data
+    }
+            
+    }
+
+</script>
+<body>
+    <button onclick="myfunction()">chamar</button>
+    <input type="text" id="myInput" 
+    <div id="myDiv"></div>
+</body>
+</html>

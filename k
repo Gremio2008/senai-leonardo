@@ -24,12 +24,9 @@
 
         section{
             background-color: rgba(255,255,255,0.9);
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    margin: 20px;
-
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
         }
 
         input{
@@ -44,7 +41,7 @@
             let usuario = document.getElementById("usuario").value;
             let senha = document.getElementById("senha").value;
 
-            if (usuario == "gremio" && senha == "gremio") {
+            if (usuario == "professor" && senha == "1234") {
                 alert("Login realizado com sucesso!");
                 mostrarHome();
                 esconderLogin();
@@ -81,14 +78,7 @@
     </section>
 
     <section id="home" style="display:none;">
-        <h1>Bem-vindo</h1> <br><br><br>
-        <iframe width="560" height="315"
-src="https://www.youtube.com/embed/cXOYjV4z_Hw"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen>
-</iframe><br><br>
+        <h1>Bem-vindo</h1>
         <input type="button" value="Sair" onclick="logout()">
     </section>
 

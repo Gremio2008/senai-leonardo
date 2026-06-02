@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+  </head>
+  <script>
+     function login(){ 
+       let usuario = document.getElementByld("usuario").value; 
+       let senha = document.getElementByld("senha").value; 
+         
+          if(usuario ="professor" && senha ="1234") 
+         
+          alert("Login realizado com sucesso!"); 
+        mostrarHome(); 
+        esconderLogin(); } 
+        
+    function logout(){ 
+       let telaHome=document.getElementByld("home").style.display="none"; 
+       let telaLogin=document.getElementByld("login").style.display="block"; } 
+          
+          function mostrarHome(){ 
+       let telaHome=document.getElementByld("home").syle.display="block"; } 
+            
+    function esconderLogin(){ 
+        let telaLogin=document.getElementByld("login").style.display="none"; }{ 
+                
+        const telaInicial=document.getElementByld("none").style.display="block"; } 
+  </script>
+    <body>
+    <img src= https://thf.bing.com/th/id/OIP.Sdn648DT8Lvc_bcXTP2t-gHaEo?w=89&h=89&c=1&rs=1&qlt=70&r=0&o=7&cb=thfc1falcon&pid=InlineBlock&rm=3 width="1100">
+      <section class="" id="login"> 
+      <div><h1>Faça login</h1></div><br> <input type="text" id="usuario" placeholder="Digite seu usuario"><br></br>
+      <input type="text" id="senha" placeholder="Digite sua senha"><br></br> 
+      <input type="button" value="Entrar" onclick="login()"><br></br>
+  </section>
+      <section class="" id="home" style="display:none;"> <div><h1>Bem vindo</h1></div>
+  </section> 
+  </img> 
+  </body>
+  </html>
